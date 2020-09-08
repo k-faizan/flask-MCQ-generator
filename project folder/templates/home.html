@@ -1,12 +1,12 @@
-<!Doctype html>
-<html>
-<head>
- <title>MCQ generator
- </title>
- <br>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+{% extends 'layout.html' %}
+
+
+
+{% block title %}
+  MCQ generator
+{% endblock %}
 <body>
+{% block content %}
     <div class='container' my-p4>
     <h1>MCQ generator for final year
     </h1>
@@ -90,7 +90,7 @@ body {
   background-image: linear-gradient(to right, rgba(73,252,73,0), rgba(251,185,40,1));
 }
 
-
 </style>
+{% endblock %}
 
 </html>
